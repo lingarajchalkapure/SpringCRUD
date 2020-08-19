@@ -42,7 +42,7 @@ public class CRUDDaoImpl implements CRUDDao{
 	public void deleteEmployee(int id) {
 		Session session=factory.openSession();
 		 Transaction tx = session.beginTransaction();
-		 Employee emp = session.get(Employee.class, id);
+		 Employee emp = (Employee)session.get(Employee.class, id);
 		 session.delete(emp);
 		 tx.commit();
 		 session.close();

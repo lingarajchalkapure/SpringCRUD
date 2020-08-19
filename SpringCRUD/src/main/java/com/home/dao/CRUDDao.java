@@ -6,6 +6,7 @@ import com.home.model.Employee;
 
 public interface CRUDDao {
 
+	
 	void save(Employee emp);
 	
 	List<Employee> getEmployees();
