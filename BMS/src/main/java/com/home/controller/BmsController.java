@@ -9,6 +9,7 @@ import com.home.service.BMSService;
 @Controller
 public class BmsController {
 
+	//comment
 	@Autowired
 	private BMSService service;
 	
