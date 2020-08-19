@@ -10,7 +10,7 @@ import com.home.service.BMSService;
 public class BmsController {
 
 	@Autowired
-	private BMSService ser;
+	private BMSService service;
 	
 	
 	
